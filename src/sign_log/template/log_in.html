@@ -1,0 +1,35 @@
+<!-- 切换按钮 -->
+<div class="btn-group switch" data-toggle="buttons" >
+	<label class="btn btn-primary" ng-click="base()">
+		<input type="radio" name="options" id="option1"> 基地登录
+	</label>
+	<label class="btn btn-primary" ng-click="bs()">
+		<input type="radio" name="options" id="option2"> 商家登录
+	</label>
+</div>
+<div class="sign-in">
+	<form action="{{btn.action}}" method="post" name="myForm" class="form-horizontal" role="form">
+	<!-- 登录名 -->
+		<div class="form-group">
+			<label class="col-sm-2 control-label">登录名</label>
+			<div class="col-sm-10">
+				<input type="text" name="user" class="form-control" 
+					   placeholder="请输入用户名" pattern="[A-z][A-z0-9]{3,14}" title="登录名以字母开头，至少4位，不超过15位" required="true" autofocus="true">
+			   <span style="color: gray;font-size: 12px">登录名以字母开头，至少4位，不超过15位。</span>
+			</div>
+		</div>
+		<!-- 用户密码 -->
+		<div class="form-group">
+			<label class="col-sm-2 control-label">密码</label>
+			<div class="col-sm-10">
+				<input type="password" name="password" class="form-control" 
+					   placeholder="请输入密码" pattern="^[^\s]{1,15}$" title="密码最多15位，不能有空格" required="true">
+					<span style="color: gray;font-size: 12px">密码最多15位，不能有空格。</span>
+			</div>
+		</div>
+		<div class="form-group">
+		<div class="col-sm-offset-2 col-sm-10">
+			<input type="submit" value="登录" class="btn btn-primary btn-lg btn-block">
+		</div>
+	</form>
+</div>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="sign-log" ng-controller="titleCtl">
+<head>
+	<meta charset="UTF-8">
+	<title ng-bind="homeCtl.aTitle"></title>
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="view/sign_log.css">
+</head>
+<body class="b">
+	<!-- logo设计 -->
+	<div class="logo">
+		<a href="../../index.php"><img src="../img/logo.png"></a>
+	</div>
+	<p class="welcome">欢迎访问绿色食品溯源网站</p>
+	<!-- 欢迎标语 -->
+	<dir class="item">
+		<p ng-bind="homeCtl.item"></p>
+	</dir>
+	<!-- 导航拦 -->
+	<div class="nav-self">
+		<ul class="nav nav-pills nav-justified">
+			<li>
+				<a href="#/sign" ng-class="homeCtl.sclass" ng-click="sClick()" data-toggle="tab">
+					注册
+				</a>
+			</li>
+			<li>
+				<a href="#/log" ng-click="lClick()" ng-class="homeCtl.lclass" data-toggle="tab">
+					登录
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div ng-view = ""></div>
+	<!-- jquery框架 -->
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<!-- angularjs框架 -->
+	<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+	<script src="https://apps.bdimg.com/libs/angular-route/1.3.13/angular-route.js"></script>
+	<!-- bootstrap框架 -->
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="controler/sign_log.js"></script>
+</body>
+</html>

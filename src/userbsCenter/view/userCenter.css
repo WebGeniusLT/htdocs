@@ -1,0 +1,181 @@
+.logo{
+	position: relative;
+	left: 90px;
+	top: -10px;
+	width: 70px;
+	height: 40px;
+}
+.navbar-right li{
+	position: relative;
+	right: 90px;
+}
+/*导航栏设置*/
+.nav-all{
+	width: 980px;
+	margin: 50px auto;
+	border-width: 1px;
+	border-color: #d2d2d2;
+	border-style: solid;
+}
+.nav-top{
+	width: 980px;
+	margin: 0 auto;
+}
+.nav-content{
+	width: 980px;
+	margin: 50px auto;	
+}
+/*用户中心*/
+/*大框*/
+.userCtl{
+	width: 602px;
+	margin: 0 auto;
+	border-width: 0 0 1px;
+	border-style: solid;
+	border-color: #f5f5f5;
+	padding: 0 0 2px;
+}
+/*用户信息类别*/
+.user-message{
+	display: inline-block;
+	width: 120px;
+	color: #5a5a5a;
+	font-size: 14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*用户信息的数据*/
+.user-data{
+	display: inline-block;
+	width: 440px;
+	color: #adadaf;
+	font-size: 14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;	
+	padding: 10px 0;
+}
+/*表单输入框*/
+.user-box{
+	display: inline-block;
+	width: 440px;
+	border-width: 0 0 1px;
+	border-bottom: #d2d2d2 1px solid;
+	padding: 10px 0;
+	outline: none;
+	color: #adadaf;
+	font-size: 16px;
+	font-size: "Helvetica Neue",Helvetica,Arial,sans-serif;	
+}
+.user-box:focus,.user-box:hover{
+	border-color: blue;
+}
+/*按钮*/
+a.btn-blue{
+	display: inline-block;
+	height: 40px;
+    line-height: 40px;
+    width: 150px;
+    margin-top: 20px; 
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+    border: none;
+    background-color: #3278e6;
+    outline: none;
+    text-decoration: none;
+}
+input.btn-yellow{
+	display: inline-block;
+	height: 40px;
+    line-height: 40px;
+    width: 150px;
+    margin-top: 20px; 
+    margin-left: 180px;
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+    border: none;
+    background-color: #ff7800;
+    outline: none;
+}
+/*修改密码按钮*/
+span.btn-switch{
+	cursor: pointer;
+	color: #adadaf;
+	margin-left: 400px;
+}
+/*修改密码大框*/
+.changePass{
+	margin-top: 30px;
+}
+/*用户仓库*/
+.userWare{
+	margin: 30px 0 0 40px;
+	width: 900px;
+}
+.process-all{
+	display: inline-block;
+	width: 445px;
+	padding: 10px 0;
+}
+.process-title{
+	display: inline-block;
+	width: 120px;
+	font-size: 14px;
+}
+.process-data{
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 280px;
+	height: 34px;
+	padding: 6px 12px;
+	border-radius: 4px;
+	color: #555;
+}
+.process-data input{
+	display: inline-block;
+	width: 256px;
+	border-width: 0;
+	outline: none;
+}
+.process-line{
+	border: 1px solid red;
+}
+.process-stage{
+	font-weight: bold;
+	color: #a94442;
+}
+/*用户上传数据罗列样式*/
+.up-data1{
+	display: inline-block;
+	width: 130px;
+	font-size: 14px;
+	position: relative;
+    top: 10px;
+}
+.up-data2{
+	display: inline-block;
+	width: 150px;
+	font-size: 14px;
+    position: relative;
+    top: 10px;
+}
+.up-data3{
+	display: inline-block;
+	width: 200px;
+	font-size: 14px;
+	position: relative;
+    top: 10px;
+}
+.up-data4{
+	display: inline-block;
+	width: 150px;
+	font-size: 14px;
+	position: relative;
+    top: 10px;
+}
+.up-data5{
+	display: inline-block;
+	width: 150px;
+	font-size: 14px;
+	position: relative;
+    top: 10px;
+}

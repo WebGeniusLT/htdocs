@@ -1,0 +1,45 @@
+.b{
+	position: relative;
+}
+.logo{
+	width: 150px;
+	height: 70px;
+	margin: 20px auto 0;
+}
+.logo img{
+	width: 150px;
+	height: 70px;
+}
+/*设计欢迎标语*/
+.welcome{
+	text-align: center; 
+	color: #bebebe;
+	margin-top: 10px;
+	font-family: 'STFangsong';
+	font-size: 10px;
+	font-style: italic;
+}
+/*注册登录时欢迎语*/
+.item{
+	margin-top: 30px;
+}
+.item p{
+	text-align: center;
+	font-size: 20px;
+	color: #828282;
+	font-family: 'STKaiti';
+}
+/*注册模块*/
+.sign-in{
+	margin: 50px auto;
+	position:absolute; 	   
+    left: 50%;  
+    -webkit-transform: translate(-50%, 0);  
+    transform: translate(-50%, 0) 
+}
+.sign-in input{
+	width: 400px !important;
+}
+.sign-in .form-group{
+	margin-bottom: 30px;
+}

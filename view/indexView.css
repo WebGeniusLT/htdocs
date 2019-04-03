@@ -1,0 +1,89 @@
+body{
+	background: url('../src/img/green.jpeg') no-repeat;
+	background-size: 100% 100%;
+	margin: 0;
+    padding: 0;
+    background-attachment:fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+.logo{
+	position: relative;
+	left: 90px;
+	top: -10px;
+	width: 70px;
+	height: 40px;
+}
+.navbar-right li{
+	position: relative;
+	right: 90px;
+}
+.slogn{
+	margin: 180px auto 20px;
+	text-align: center;
+	font-size: 30px;
+}
+.search-all{
+	width: 846px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 20px 3px #2864c8;
+	background-color: #fff;
+}
+.search-all input{
+	padding: 9px 10px;
+    width: 655px;
+    height: 38px;
+    line-height: 36px;
+    font-size: 16px;
+    -webkit-appearance: none;
+    border-radius: 0px;
+    border: 1px solid #d2d2d2;
+    vertical-align: middle;
+    outline: none;
+    border-width: 0;
+}
+.search-all a{
+    padding: 0;
+    width: 187px;
+    height: 58px;
+    line-height: 54px;
+    font-size: 18px;
+    color: #fff;
+    background: #009688;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.search-all a:hover{
+	background-color: #02796e;
+}
+/*数据罗列*/
+.each-data{
+	font-size: 16px;
+	color: #eadadb;
+}
+/*查询到数据的title*/
+.data-title{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 16px;
+	width: 210px;
+	text-align: right;
+}
+.data-dal{
+	display: inline-block;
+	font-size: 16px;
+	width: 210px;
+	color: #deff97;
+}
+.data-line{
+	border: 1px solid red;
+}
+.img-size{
+	width: 600px;
+	height: 300px;
+	display: block;
+	margin: 20px auto 0;
+}
